@@ -1,0 +1,1 @@
+import{r}from"./request-CE7cdWYR.js";function o(e){return r.post(`/user/favorite/${e}`)}function a(e){return r.delete(`/user/favorite/${e}`)}function i(){return r.get("/user/favorites")}function s(e){return r.get(`/user/favorite/check/${e}`)}export{o as a,s as c,i as g,a as r};
