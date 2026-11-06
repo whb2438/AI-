@@ -1,0 +1,1 @@
+import{r as a}from"./request-CE7cdWYR.js";function o(t=1,i=20){return a.get("/user/notifications",{params:{page:t,size:i}})}function n(t){return a.post(`/user/notification/${t}/read`)}function e(){return a.post("/user/notifications/read-all")}export{n as a,o as g,e as m};
